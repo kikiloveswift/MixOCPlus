@@ -17,5 +17,6 @@ int main(int argc, const char * argv[]) {
         [p initPerson];
         
     }
+    system(pause());
     return 0;
 }
