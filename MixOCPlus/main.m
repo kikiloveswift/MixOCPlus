@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "OC_Person.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+    @autoreleasepool
+    {
+        
+        OC_Person *p = [OC_Person new];
+        [p initPerson];
+        
     }
     return 0;
 }
